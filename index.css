@@ -1,0 +1,58 @@
+/* css ruleset: selector{ property: value}; */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Times New Roman', Times, serif;
+	/* background image on css we use background-image  */
+	background-image: url("images/nilufar-nattaq-YGhK0IiBBLs-unsplash.jpg");
+	/* set the size of our image we can auto, contain or cover  */
+	background-size: cover;
+	/* bg repeat property - set it to no repeat so that the image won't multiple times */
+	background-repeat: no-repeat;
+	/* background position - set it to left, center, right, top etc */
+	/* background-position: left; */
+}
+
+ul {
+	/* list style type */
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+li {
+	/* display: inline-block */
+	display: inline-block;
+	margin-right: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+	font-size: 25px;
+	font-weight: bold;
+	/* borders */
+	border: 1px solid;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+/* hover effect */
+a:hover {
+	background-color: white;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 20%;
+	font-size: 70px;
+	color: black;
+}
+
+p {
+	font-size: 20px;
+	max-width: 700px;
+	margin: 0 35%;
+}
